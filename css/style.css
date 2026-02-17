@@ -95,6 +95,13 @@ img{
     text-align: start;
     /* border: 2px solid black;*/
 }
+h4{
+    font-family: 'Youngest', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: start;
+    /* border: 2px solid black;*/
+}
 .text-home p{
     font-family: 'Open Sauce', sans-serif;
     font-size: 25px;
@@ -107,7 +114,7 @@ img{
     align-items: start;
     text-align: start;
 }
-.buttom a{
+.buttom a, .btn{
     text-decoration: none;
     padding: 10px 20px;
     font-family: 'Open Sauce', sans-serif;
@@ -119,7 +126,7 @@ img{
     border: 2px solid #4C9DB0;
     color: white ;
 }
-.buttom a:hover{
+.buttom a:hover, .btn:hover{
     background:transparent;
     border-radius: 8px;
     border: 2px solid #4C9DB0;
@@ -273,6 +280,20 @@ img{
     color: #F0CC5C ;
     transition: all 0.3s ease;
     }
+#carouselDepoimentos {
+  margin-top: 40px;
+}
+
+#carouselDepoimentos p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 576px) {
+  #carouselDepoimentos p {
+    font-size: 0.95rem;
+  }
+}
 
 
 /*  Ajustes extras pra telas pequenas */
@@ -296,8 +317,8 @@ img{
   width: 150px;
   height: 150px;
   background-color: #FFEBAF;
-  top: -115px;
-  left: 315px;
+  top: -60px;
+  left: 290px;
   z-index: -1;
 }
 .bola3 {
@@ -305,7 +326,7 @@ img{
   height: 200px;
   background-color: #F6DB89;
   top: -45px;
-  left: 160px;
+  left: 90px;
 }   
 
 /* Bola 2 — canto inferior direito */
@@ -328,10 +349,10 @@ img{
   .texto{
     font-size: 16px;
   }
-  .botao{
+ .buttom a{
     flex-direction: column;
     gap: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (max-width: 391px) {
@@ -386,9 +407,9 @@ img{
   .texto{
     font-size: 16px;
   }
-  .botao{
+  .buttom a{
     flex-direction: column;
     gap: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
